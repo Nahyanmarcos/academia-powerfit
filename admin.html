@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel Administrativo | PowerFit</title>
+
+    <link rel="stylesheet" href="css/styler.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h1>POWER<span>FIT</span></h1>
+            <p>ADMINISTRAÇÃO</p>
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="dashboard.html">Meu Painel</a>
+            <a href="#" id="btnSairAdmin">Sair</a>
+        </nav>
+
+    </header>
+
+
+    <main class="admin-container">
+
+        <div class="admin-header">
+            <h2>Painel Administrativo</h2>
+            <p>Gerencie os alunos e informações da academia.</p>
+        </div>
+
+
+        <!-- CARDS DE RESUMO -->
+
+        <section class="admin-cards">
+
+            <div class="admin-card">
+                <h3>Total de Alunos</h3>
+                <strong id="totalAlunos">1</strong>
+            </div>
+
+            <div class="admin-card">
+                <h3>Alunos Ativos</h3>
+                <strong id="alunosAtivos">1</strong>
+            </div>
+
+            <div class="admin-card">
+                <h3>Planos Cadastrados</h3>
+                <strong>3</strong>
+            </div>
+
+        </section>
+
+
+        <!-- LISTA DE ALUNOS -->
+
+        <section class="admin-table-box">
+
+            <div class="table-header">
+
+                <h2>Alunos Cadastrados</h2>
+
+                <a href="cadastro.html" class="btn-cadastrar-admin">
+                    + Novo Aluno
+                </a>
+
+            </div>
+
+
+            <div class="table-responsive">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Telefone</th>
+                            <th>Plano</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabelaAlunos">
+
+                        <!-- Os alunos aparecerão aqui através do JavaScript -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 PowerFit Academia — Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

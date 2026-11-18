@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel do Aluno | PowerFit Academia</title>
+
+    <link rel="stylesheet" href="css/styler.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <div class="logo">
+            <h1>POWER<span>FIT</span></h1>
+            <p>ACADEMIA</p>
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="dashboard.html">Meu Painel</a>
+            <a href="#" id="btnSair">Sair</a>
+        </nav>
+
+    </header>
+
+
+    <!-- PAINEL -->
+
+    <main class="dashboard-container">
+
+        <div class="dashboard-header">
+
+            <div>
+                <h2>Olá, <span id="nomeAluno">Aluno</span>!</h2>
+
+                <p>
+                    Seja bem-vindo ao seu painel da PowerFit Academia.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- CARDS DE INFORMAÇÕES -->
+
+        <section class="dashboard-cards">
+
+            <div class="dashboard-card">
+
+                <h3>Plano Atual</h3>
+
+                <p id="planoAluno">Carregando...</p>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <h3>Status</h3>
+
+                <p class="status-ativo">● Ativo</p>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <h3>Mensalidade</h3>
+
+                <p>Em dia</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFORMAÇÕES DO ALUNO -->
+
+        <section class="perfil-box">
+
+            <h2>Minhas Informações</h2>
+
+            <div class="perfil-grid">
+
+                <div>
+                    <strong>Nome completo</strong>
+                    <p id="infoNome">-</p>
+                </div>
+
+                <div>
+                    <strong>E-mail</strong>
+                    <p id="infoEmail">-</p>
+                </div>
+
+                <div>
+                    <strong>Telefone</strong>
+                    <p id="infoTelefone">-</p>
+                </div>
+
+                <div>
+                    <strong>CPF</strong>
+                    <p id="infoCpf">-</p>
+                </div>
+
+                <div>
+                    <strong>Plano contratado</strong>
+                    <p id="infoPlano">-</p>
+                </div>
+
+                <div>
+                    <strong>Forma de pagamento</strong>
+                    <p id="infoPagamento">-</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AÇÕES -->
+
+        <section class="acoes-box">
+
+            <h2>Acesso Rápido</h2>
+
+            <div class="acoes-grid">
+
+                <a href="index.html" class="acao-card">
+                    <span>🏠</span>
+                    <h3>Início</h3>
+                    <p>Voltar para página principal</p>
+                </a>
+
+                <a href="#" class="acao-card">
+                    <span>💪</span>
+                    <h3>Meu Treino</h3>
+                    <p>Consulte seus exercícios</p>
+                </a>
+
+                <a href="#" class="acao-card">
+                    <span>📅</span>
+                    <h3>Horários</h3>
+                    <p>Veja os horários disponíveis</p>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+        <p>© 2026 PowerFit Academia — Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
